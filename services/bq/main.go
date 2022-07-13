@@ -1,10 +1,12 @@
 package main
 
 import (
-	"cloud.google.com/go/bigquery"
 	"context"
 	"fmt"
-	pb "github.com/tlgevers/mapping-stuff/services/bq/proto/bq"
+
+	"cloud.google.com/go/bigquery"
+
+	// pb "github.com/tlgevers/mapping-stuff/services/bq/proto/bq"
 	"google.golang.org/api/iterator"
 )
 
